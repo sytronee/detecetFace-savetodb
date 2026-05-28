@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="detectFace_ui/detectFace_ui.csproj" Id="463c9b72-0628-4bf1-ab01-74f977e2f7b9" />
+  <Project Path="DetectionEventAPI/DetectionEventAPI.csproj" />
+</Solution>
