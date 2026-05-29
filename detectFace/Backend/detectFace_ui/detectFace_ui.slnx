@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="CommonModels/CommonModels.csproj" Id="a59b9b86-2da0-43dd-9849-9624ca307842" />
   <Project Path="detectFace_ui/detectFace_ui.csproj" Id="463c9b72-0628-4bf1-ab01-74f977e2f7b9" />
   <Project Path="DetectionEventAPI/DetectionEventAPI.csproj" />
 </Solution>

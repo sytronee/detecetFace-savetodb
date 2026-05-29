@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "data",
-        "Type": "DetectionEventAPI.models.DetectionData",
+        "Type": "CommonModels.DetectionData",
         "IsRequired": true
       }
     ],

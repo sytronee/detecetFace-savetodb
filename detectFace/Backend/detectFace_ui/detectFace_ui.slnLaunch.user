@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "detectFace_ui\\detectFace_ui.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "DetectionEventAPI\\DetectionEventAPI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

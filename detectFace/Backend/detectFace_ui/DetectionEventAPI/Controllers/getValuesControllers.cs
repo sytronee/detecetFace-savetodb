@@ -1,5 +1,5 @@
-﻿using DetectionEventAPI.models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using CommonModels;
 
 namespace DetectionEventAPI.Controllers
 {

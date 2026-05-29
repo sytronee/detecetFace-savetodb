@@ -35,12 +35,13 @@
             this.lbl_ext = new System.Windows.Forms.Label();
             this.pctr_box_face = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btn_submit = new detectFace_ui.customTools.RoneButton();
+            this.lbl_conf = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.apiTimer = new System.Windows.Forms.Timer(this.components);
             this.btn_scanFace = new detectFace_ui.customTools.RoneButton();
-            this.btn_submit = new detectFace_ui.customTools.RoneButton();
+            this.btn_savedb = new detectFace_ui.customTools.RoneButton();
             this.pnl_ctrlbox.SuspendLayout();
             this.pnl_ext.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctr_box_face)).BeginInit();
@@ -110,7 +111,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btn_submit);
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.lbl_conf);
             this.groupBox1.Controls.Add(this.pctr_box_face);
             this.groupBox1.Location = new System.Drawing.Point(26, 119);
             this.groupBox1.Name = "groupBox1";
@@ -119,14 +120,34 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Detected Face";
             // 
-            // label1
+            // btn_submit
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 469);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(139, 20);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Confidence Value:";
+            this.btn_submit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
+            this.btn_submit.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
+            this.btn_submit.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btn_submit.BorderRadius = 0;
+            this.btn_submit.BorderSize = 0;
+            this.btn_submit.Enabled = false;
+            this.btn_submit.FlatAppearance.BorderSize = 0;
+            this.btn_submit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_submit.ForeColor = System.Drawing.Color.White;
+            this.btn_submit.Location = new System.Drawing.Point(15, 506);
+            this.btn_submit.Name = "btn_submit";
+            this.btn_submit.Size = new System.Drawing.Size(150, 40);
+            this.btn_submit.TabIndex = 1;
+            this.btn_submit.Text = "Submit";
+            this.btn_submit.TextColor = System.Drawing.Color.White;
+            this.btn_submit.UseVisualStyleBackColor = false;
+            this.btn_submit.Click += new System.EventHandler(this.btn_submit_Click);
+            // 
+            // lbl_conf
+            // 
+            this.lbl_conf.AutoSize = true;
+            this.lbl_conf.Location = new System.Drawing.Point(11, 469);
+            this.lbl_conf.Name = "lbl_conf";
+            this.lbl_conf.Size = new System.Drawing.Size(139, 20);
+            this.lbl_conf.TabIndex = 3;
+            this.lbl_conf.Text = "Confidence Value:";
             // 
             // groupBox2
             // 
@@ -143,6 +164,7 @@
             this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
             this.richTextBox1.Location = new System.Drawing.Point(30, 37);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(483, 392);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
@@ -171,23 +193,24 @@
             this.btn_scanFace.UseVisualStyleBackColor = false;
             this.btn_scanFace.Click += new System.EventHandler(this.btn_scanFace_Click);
             // 
-            // btn_submit
+            // btn_savedb
             // 
-            this.btn_submit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
-            this.btn_submit.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
-            this.btn_submit.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btn_submit.BorderRadius = 0;
-            this.btn_submit.BorderSize = 0;
-            this.btn_submit.FlatAppearance.BorderSize = 0;
-            this.btn_submit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_submit.ForeColor = System.Drawing.Color.White;
-            this.btn_submit.Location = new System.Drawing.Point(15, 506);
-            this.btn_submit.Name = "btn_submit";
-            this.btn_submit.Size = new System.Drawing.Size(150, 40);
-            this.btn_submit.TabIndex = 1;
-            this.btn_submit.Text = "Submit";
-            this.btn_submit.TextColor = System.Drawing.Color.White;
-            this.btn_submit.UseVisualStyleBackColor = false;
+            this.btn_savedb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
+            this.btn_savedb.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
+            this.btn_savedb.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btn_savedb.BorderRadius = 0;
+            this.btn_savedb.BorderSize = 0;
+            this.btn_savedb.Enabled = false;
+            this.btn_savedb.FlatAppearance.BorderSize = 0;
+            this.btn_savedb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_savedb.ForeColor = System.Drawing.Color.White;
+            this.btn_savedb.Location = new System.Drawing.Point(610, 588);
+            this.btn_savedb.Name = "btn_savedb";
+            this.btn_savedb.Size = new System.Drawing.Size(150, 40);
+            this.btn_savedb.TabIndex = 6;
+            this.btn_savedb.Text = "Save Database";
+            this.btn_savedb.TextColor = System.Drawing.Color.White;
+            this.btn_savedb.UseVisualStyleBackColor = false;
             // 
             // frm_main
             // 
@@ -195,6 +218,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
             this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.btn_savedb);
             this.Controls.Add(this.btn_scanFace);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -225,12 +249,13 @@
         private System.Windows.Forms.Label lbl_tag;
         private System.Windows.Forms.PictureBox pctr_box_face;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_conf;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private customTools.RoneButton btn_submit;
         private customTools.RoneButton btn_scanFace;
         private System.Windows.Forms.Timer apiTimer;
+        private customTools.RoneButton btn_savedb;
     }
 }
 
