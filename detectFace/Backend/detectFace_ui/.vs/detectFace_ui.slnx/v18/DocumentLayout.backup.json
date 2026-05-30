@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\",
+  "WorkspaceRootPath": "C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{463C9B72-0628-4BF1-AB01-74F977E2F7B9}|detectFace_ui\\detectFace_ui.csproj|c:\\users\\furkan\\documents\\projeler\\github\\detecetface-savetodb\\detectface\\backend\\detectface_ui\\detectface_ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{463C9B72-0628-4BF1-AB01-74F977E2F7B9}|detectFace_ui\\detectFace_ui.csproj|c:\\users\\furkan\\documents\\projeler\\isrea\\detectface\\backend\\detectface_ui\\detectface_ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{463C9B72-0628-4BF1-AB01-74F977E2F7B9}|detectFace_ui\\detectFace_ui.csproj|solutionrelative:detectface_ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{463C9B72-0628-4BF1-AB01-74F977E2F7B9}|detectFace_ui\\detectFace_ui.csproj|C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\detectface_ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{463C9B72-0628-4BF1-AB01-74F977E2F7B9}|detectFace_ui\\detectFace_ui.csproj|C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\detectface_ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{463C9B72-0628-4BF1-AB01-74F977E2F7B9}|detectFace_ui\\detectFace_ui.csproj|solutionrelative:detectface_ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59B9B86-2DA0-43DD-9849-9624CA307842}|CommonModels\\CommonModels.csproj|C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\commonmodels\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{463C9B72-0628-4BF1-AB01-74F977E2F7B9}|detectFace_ui\\detectFace_ui.csproj|c:\\users\\furkan\\documents\\projeler\\isrea\\detectface\\backend\\detectface_ui\\detectface_ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{463C9B72-0628-4BF1-AB01-74F977E2F7B9}|detectFace_ui\\detectFace_ui.csproj|solutionrelative:detectface_ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59B9B86-2DA0-43DD-9849-9624CA307842}|CommonModels\\CommonModels.csproj|C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\commonmodels\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A59B9B86-2DA0-43DD-9849-9624CA307842}|CommonModels\\CommonModels.csproj|solutionrelative:commonmodels\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C9B04C9-C9AF-4174-CB43-5EB41820B61E}|DetectionEventAPI\\DetectionEventAPI.csproj|c:\\users\\furkan\\documents\\projeler\\github\\detecetface-savetodb\\detectface\\backend\\detectface_ui\\detectioneventapi\\controllers\\getvaluescontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C9B04C9-C9AF-4174-CB43-5EB41820B61E}|DetectionEventAPI\\DetectionEventAPI.csproj|c:\\users\\furkan\\documents\\projeler\\isrea\\detectface\\backend\\detectface_ui\\detectioneventapi\\controllers\\getvaluescontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C9B04C9-C9AF-4174-CB43-5EB41820B61E}|DetectionEventAPI\\DetectionEventAPI.csproj|solutionrelative:detectioneventapi\\controllers\\getvaluescontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,27 +30,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\CommonModels\\Class1.cs",
-              "RelativeDocumentMoniker": "CommonModels\\Class1.cs",
-              "ToolTip": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\CommonModels\\Class1.cs",
-              "RelativeToolTip": "CommonModels\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\detectFace_ui\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "detectFace_ui\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\detectFace_ui\\Form1.Designer.cs",
+              "RelativeToolTip": "detectFace_ui\\Form1.Designer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAewLcAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T19:56:06.957Z"
+              "WhenOpened": "2026-05-30T13:05:00.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\CommonModels\\Class1.cs",
+              "RelativeDocumentMoniker": "CommonModels\\Class1.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\CommonModels\\Class1.cs",
+              "RelativeToolTip": "CommonModels\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T19:56:06.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "getValuesControllers.cs",
-              "DocumentMoniker": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\DetectionEventAPI\\Controllers\\getValuesControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\DetectionEventAPI\\Controllers\\getValuesControllers.cs",
               "RelativeDocumentMoniker": "DetectionEventAPI\\Controllers\\getValuesControllers.cs",
-              "ToolTip": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\DetectionEventAPI\\Controllers\\getValuesControllers.cs",
+              "ToolTip": "C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\DetectionEventAPI\\Controllers\\getValuesControllers.cs",
               "RelativeToolTip": "DetectionEventAPI\\Controllers\\getValuesControllers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,11 +74,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\detectFace_ui\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\detectFace_ui\\Form1.cs",
               "RelativeDocumentMoniker": "detectFace_ui\\Form1.cs",
-              "ToolTip": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\detectFace_ui\\Form1.cs",
-              "RelativeToolTip": "detectFace_ui\\Form1.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAuwHwAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\detectFace_ui\\Form1.cs*",
+              "RelativeToolTip": "detectFace_ui\\Form1.cs*",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAMwP8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T15:49:11.534Z",
               "EditorCaption": ""
@@ -69,12 +87,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\detectFace_ui\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\detectFace_ui\\Form1.cs",
               "RelativeDocumentMoniker": "detectFace_ui\\Form1.cs",
-              "ToolTip": "C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\detectFace_ui\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Isrea\\detectFace\\Backend\\detectFace_ui\\detectFace_ui\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Furkan\\Documents\\Projeler\\Isrea\\detectFace\\Backend\\detectFace_ui\\detectFace_ui\\Form1.cs [Design]*",
+              "RelativeToolTip": "detectFace_ui\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T15:46:22.278Z"
+              "WhenOpened": "2026-05-28T15:46:22.278Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

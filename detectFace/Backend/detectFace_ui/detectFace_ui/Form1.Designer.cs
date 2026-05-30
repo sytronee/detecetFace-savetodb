@@ -35,13 +35,14 @@
             this.lbl_ext = new System.Windows.Forms.Label();
             this.pctr_box_face = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btn_submit = new detectFace_ui.customTools.RoneButton();
             this.lbl_conf = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.apiTimer = new System.Windows.Forms.Timer(this.components);
-            this.btn_scanFace = new detectFace_ui.customTools.RoneButton();
+            this.lbl_status = new System.Windows.Forms.Label();
             this.btn_savedb = new detectFace_ui.customTools.RoneButton();
+            this.btn_scanFace = new detectFace_ui.customTools.RoneButton();
+            this.btn_submit = new detectFace_ui.customTools.RoneButton();
             this.pnl_ctrlbox.SuspendLayout();
             this.pnl_ext.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctr_box_face)).BeginInit();
@@ -120,26 +121,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Detected Face";
             // 
-            // btn_submit
-            // 
-            this.btn_submit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
-            this.btn_submit.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
-            this.btn_submit.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btn_submit.BorderRadius = 0;
-            this.btn_submit.BorderSize = 0;
-            this.btn_submit.Enabled = false;
-            this.btn_submit.FlatAppearance.BorderSize = 0;
-            this.btn_submit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_submit.ForeColor = System.Drawing.Color.White;
-            this.btn_submit.Location = new System.Drawing.Point(15, 506);
-            this.btn_submit.Name = "btn_submit";
-            this.btn_submit.Size = new System.Drawing.Size(150, 40);
-            this.btn_submit.TabIndex = 1;
-            this.btn_submit.Text = "Submit";
-            this.btn_submit.TextColor = System.Drawing.Color.White;
-            this.btn_submit.UseVisualStyleBackColor = false;
-            this.btn_submit.Click += new System.EventHandler(this.btn_submit_Click);
-            // 
             // lbl_conf
             // 
             this.lbl_conf.AutoSize = true;
@@ -174,24 +155,13 @@
             this.apiTimer.Interval = 500;
             this.apiTimer.Tick += new System.EventHandler(this.apiTimer_Tick);
             // 
-            // btn_scanFace
+            // lbl_status
             // 
-            this.btn_scanFace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
-            this.btn_scanFace.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
-            this.btn_scanFace.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btn_scanFace.BorderRadius = 0;
-            this.btn_scanFace.BorderSize = 0;
-            this.btn_scanFace.FlatAppearance.BorderSize = 0;
-            this.btn_scanFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_scanFace.ForeColor = System.Drawing.Color.White;
-            this.btn_scanFace.Location = new System.Drawing.Point(26, 57);
-            this.btn_scanFace.Name = "btn_scanFace";
-            this.btn_scanFace.Size = new System.Drawing.Size(150, 40);
-            this.btn_scanFace.TabIndex = 4;
-            this.btn_scanFace.Text = "Scan Face";
-            this.btn_scanFace.TextColor = System.Drawing.Color.White;
-            this.btn_scanFace.UseVisualStyleBackColor = false;
-            this.btn_scanFace.Click += new System.EventHandler(this.btn_scanFace_Click);
+            this.lbl_status.AutoSize = true;
+            this.lbl_status.Location = new System.Drawing.Point(767, 614);
+            this.lbl_status.Name = "lbl_status";
+            this.lbl_status.Size = new System.Drawing.Size(0, 20);
+            this.lbl_status.TabIndex = 7;
             // 
             // btn_savedb
             // 
@@ -211,6 +181,46 @@
             this.btn_savedb.Text = "Save Database";
             this.btn_savedb.TextColor = System.Drawing.Color.White;
             this.btn_savedb.UseVisualStyleBackColor = false;
+            this.btn_savedb.Click += new System.EventHandler(this.btn_savedb_Click);
+            // 
+            // btn_scanFace
+            // 
+            this.btn_scanFace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
+            this.btn_scanFace.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
+            this.btn_scanFace.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btn_scanFace.BorderRadius = 0;
+            this.btn_scanFace.BorderSize = 0;
+            this.btn_scanFace.FlatAppearance.BorderSize = 0;
+            this.btn_scanFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_scanFace.ForeColor = System.Drawing.Color.White;
+            this.btn_scanFace.Location = new System.Drawing.Point(26, 57);
+            this.btn_scanFace.Name = "btn_scanFace";
+            this.btn_scanFace.Size = new System.Drawing.Size(150, 40);
+            this.btn_scanFace.TabIndex = 4;
+            this.btn_scanFace.Text = "Scan Face";
+            this.btn_scanFace.TextColor = System.Drawing.Color.White;
+            this.btn_scanFace.UseVisualStyleBackColor = false;
+            this.btn_scanFace.Click += new System.EventHandler(this.btn_scanFace_Click);
+            // 
+            // btn_submit
+            // 
+            this.btn_submit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
+            this.btn_submit.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(118)))), ((int)(((byte)(109)))));
+            this.btn_submit.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btn_submit.BorderRadius = 0;
+            this.btn_submit.BorderSize = 0;
+            this.btn_submit.Enabled = false;
+            this.btn_submit.FlatAppearance.BorderSize = 0;
+            this.btn_submit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_submit.ForeColor = System.Drawing.Color.White;
+            this.btn_submit.Location = new System.Drawing.Point(15, 506);
+            this.btn_submit.Name = "btn_submit";
+            this.btn_submit.Size = new System.Drawing.Size(150, 40);
+            this.btn_submit.TabIndex = 1;
+            this.btn_submit.Text = "Submit";
+            this.btn_submit.TextColor = System.Drawing.Color.White;
+            this.btn_submit.UseVisualStyleBackColor = false;
+            this.btn_submit.Click += new System.EventHandler(this.btn_submit_Click);
             // 
             // frm_main
             // 
@@ -218,6 +228,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(233)))), ((int)(((byte)(230)))));
             this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.lbl_status);
             this.Controls.Add(this.btn_savedb);
             this.Controls.Add(this.btn_scanFace);
             this.Controls.Add(this.groupBox2);
@@ -238,6 +249,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -256,6 +268,7 @@
         private customTools.RoneButton btn_scanFace;
         private System.Windows.Forms.Timer apiTimer;
         private customTools.RoneButton btn_savedb;
+        private System.Windows.Forms.Label lbl_status;
     }
 }
 
