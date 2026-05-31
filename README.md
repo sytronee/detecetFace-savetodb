@@ -21,7 +21,7 @@ An end-to-end computer vision system that captures camera feeds, detects faces, 
 ## 📦 Installation Guide
 
 ### 1. Clone the Repository
-```bash
+
 git clone <your-repo-link>
 cd detectFace-savetodb
 2. Prepare Python Environment
@@ -40,7 +40,7 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 3. Launch Docker Services
-```bash
+
 
 
 cd ../..
@@ -60,4 +60,4 @@ Database Connection: Ensure connection strings point to db inside the Docker net
 
 Build Errors: If Docker fails to find project files, verify that Dockerfile paths match the current folder hierarchy.
 
-Click here for the Turkish document.
+Click [here](https://github.com/sytronee/detectFace-savetodb/edit/main/README_tr.md) for the Turkish document.
