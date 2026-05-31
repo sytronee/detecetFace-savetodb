@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "data",
-        "Type": "CommonModels.DetectionData",
+        "Type": "commonModels.Class1\u002BDetectionData",
         "IsRequired": true
       }
     ],
