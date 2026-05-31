@@ -1,0 +1,11 @@
+C:\Users\Furkan\Desktop\detecetFace-savetodb\detectFace\Backend\detectFace_ui\CommonModels\bin\Debug\netstandard2.0\CommonModels.deps.json
+C:\Users\Furkan\Desktop\detecetFace-savetodb\detectFace\Backend\detectFace_ui\CommonModels\bin\Debug\netstandard2.0\CommonModels.dll
+C:\Users\Furkan\Desktop\detecetFace-savetodb\detectFace\Backend\detectFace_ui\CommonModels\bin\Debug\netstandard2.0\CommonModels.pdb
+C:\Users\Furkan\Desktop\detecetFace-savetodb\detectFace\Backend\detectFace_ui\CommonModels\obj\Debug\netstandard2.0\CommonModels.csproj.AssemblyReference.cache
+C:\Users\Furkan\Desktop\detecetFace-savetodb\detectFace\Backend\detectFace_ui\CommonModels\obj\Debug\netstandard2.0\CommonModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furkan\Desktop\detecetFace-savetodb\detectFace\Backend\detectFace_ui\CommonModels\obj\Debug\netstandard2.0\CommonModels.AssemblyInfoInputs.cache
+C:\Users\Furkan\Desktop\detecetFace-savetodb\detectFace\Backend\detectFace_ui\CommonModels\obj\Debug\netstandard2.0\CommonModels.AssemblyInfo.cs
+C:\Users\Furkan\Desktop\detecetFace-savetodb\detectFace\Backend\detectFace_ui\CommonModels\obj\Debug\netstandard2.0\CommonModels.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Desktop\detecetFace-savetodb\detectFace\Backend\detectFace_ui\CommonModels\obj\Debug\netstandard2.0\CommonModels.sourcelink.json
+C:\Users\Furkan\Desktop\detecetFace-savetodb\detectFace\Backend\detectFace_ui\CommonModels\obj\Debug\netstandard2.0\CommonModels.dll
+C:\Users\Furkan\Desktop\detecetFace-savetodb\detectFace\Backend\detectFace_ui\CommonModels\obj\Debug\netstandard2.0\CommonModels.pdb

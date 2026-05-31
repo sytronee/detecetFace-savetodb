@@ -12,8 +12,9 @@ using System.Windows.Forms;
 using System.Net.Http;
 using System.Text.Json;
 using Newtonsoft.Json;
-using CommonModels;
 using Npgsql;
+using commonModels;
+using static commonModels.Class1;
 
 namespace detectFace_ui
 {
@@ -44,8 +45,8 @@ namespace detectFace_ui
         private bool apiTimerCalisiyor = false;
         private DirectoryInfo pythonScriptKlasoru;
         string durum = "";
-        string connectingString = "server=localhost;port=5454;Database=detectFace_db;user Id=postgres;password=123";
-
+        // Windows'ta çalışan UI için:
+        string connectingString = "Host=localhost;Database=CameraDb;Username=postgres;Password=123;";
         void pushhdata()
         {
             try
@@ -160,12 +161,7 @@ namespace detectFace_ui
                 pythonProcess.StartInfo.UseShellExecute = false;
                 pythonProcess.StartInfo.CreateNoWindow = false;
 
-                if (pctr_box_face.Image != null)
-                {
-                    pctr_box_face.Image.Dispose();
-                    pctr_box_face.Image = null;
-
-                }
+               
                 if (btn_savedb.Enabled == true)
                 {
                     btn_savedb.Enabled = false;
@@ -190,7 +186,7 @@ namespace detectFace_ui
             apiTimerCalisiyor = true;
             apiTimer.Stop();
 
-            string url = "https://localhost:7110/api/detection/son-veri";
+            string url = "http://localhost:8080/api/detection/son-veri";
 
             try
             {
@@ -250,10 +246,17 @@ namespace detectFace_ui
         private void btn_savedb_Click(object sender, EventArgs e)
         {
             btn_submit.Enabled = false;
+            btn_savedb.Enabled=false;
             pushhdata();
             lbl_status.Text = durum;
             richTextBox1.Text = "";
             lbl_conf.Text = "Confidence Value: ";
+            if (pctr_box_face.Image != null)
+            {
+                pctr_box_face.Image.Dispose();
+                pctr_box_face.Image = null;
+
+            }
         }
 
        

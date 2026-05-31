@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: CameraDb
+    ports:
+      - "5432:5432"
+
+  api:
+    build:
+      context: ./detectFace/Backend/detectFace_ui
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=Host=db;Database=CameraDb;Username=postgres;Password=123

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fR1LUfeNOXI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Furkan\\Desktop\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\CommonModels\\CommonModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Furkan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Furkan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
