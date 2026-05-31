@@ -18,7 +18,7 @@ Sistem, Docker ile birbirinden izole edilmiş üç ana bileşenden oluşur:
 * **Docker Desktop:** Konteynerleri yönetmek için gereklidir.
 * **Python 3.x:** Görüntü işleme scripti için gereklidir.
 * **.NET 8.0 SDK:** API geliştirme ve derleme için gereklidir.
-
+* **Veritabanı Arayüzü:** DBeaver (Veritabanı yönetim aracı)
 ---
 
 ## 📦 Kurulum Adımları
