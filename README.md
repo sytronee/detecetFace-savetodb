@@ -40,3 +40,7 @@ Host: localhost | Port: 5432 | DB: CameraDb | User: postgres | Pass: 123
 
 📊 Data Structure
 The system stores data in the scanneddata table, capturing camera IDs, timestamps, confidence scores, and bounding box coordinates.
+
+
+
+Click [here](https://github.com/sytronee/detectFace-savetodb/blob/main/README_tr.md) to access the Turkish documentation for the project. 
