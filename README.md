@@ -1,4 +1,4 @@
-Click [here](https://github.com/sytronee/detectFace-savetodb/edit/main/README_tr.md) for the Turkish document.
+Click [here](https://github.com/sytronee/detectFace-savetodb/blob/main/README_tr.md) for the Turkish document.
 # Face Detection and Data Tracking System
 
 An end-to-end computer vision system that captures camera feeds, detects faces, and logs data (Camera ID, timestamp, confidence score, bounding box) into a **PostgreSQL** database.
