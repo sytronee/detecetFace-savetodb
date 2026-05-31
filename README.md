@@ -19,7 +19,7 @@ An end-to-end computer vision system that captures camera feeds, detects faces, 
 * **Languages:** C# (.NET 8.0), Python 3.x
 * **Database:** PostgreSQL 15
 * **Orchestration:** Docker & Docker Compose
-
+* **Database Interface:** DBeaver (Database management tool)
 ---
 
 ## 📦 Installation Guide
@@ -47,10 +47,15 @@ docker-compose up --build
 🚀 Execution
 Run the Python script from the detectFace/PythonScript directory. It will stream detection events to the API at http://localhost:8080.
 
-📊 Database Access
-Host: localhost | Port: 5432
+📊 Database Acsess To view or manage data (DBeaver installation required):
 
-Database: CameraDb | Credentials: postgres / 123
+Host: localhost
+
+Port: 5432
+
+DB Name: CameraDb
+
+User/Pass: postgres / 123
 
 ⚠️ Troubleshooting
 Port Conflicts: Use netstat -ano to find and terminate processes blocking ports 8080 or 5432.
