@@ -8,7 +8,9 @@ An end-to-end computer vision system that captures camera feeds, detects faces, 
 ## 🏗 System Architecture
 
 1.  **Frontend (Python):** Image processing module located in `detectFace-savetodb/detectFace/PythonScript`.
+
 2.  **Backend (API):** C# .NET Core service for data management.
+
 3.  **Database:** PostgreSQL 15.
 
 ---
