@@ -30,9 +30,6 @@ cd detectFace-savetodb
 2. Python Ortamını Hazırlayın
 Görüntü işleme scriptinin çalışması için gerekli kütüphaneleri kurun:
 
-Bash
-
-
 # Script dizinine gidin
 cd detectFace/PythonScript
 
@@ -48,9 +45,6 @@ pip install -r requirements.txt
 3. Docker Servislerini Başlatın
 Projenin ana dizinine geri dönün ve konteynerleri başlatın:
 
-Bash
-
-
 cd ../.. # Proje kök dizinine dönüş
 docker-compose up --build
 Bu komut PostgreSQL veritabanını, API'yi ve tüm gerekli bağımlılıkları otomatik olarak kurar.
@@ -61,9 +55,6 @@ Docker servislerinin ayakta olduğundan emin olun (docker ps komutuyla kontrol e
 detectFace/PythonScript dizinine tekrar girin.
 
 Scripti çalıştırın:
-
-Bash
-
 
 python main.py # veya kullandığınız dosya adı
 Script, görüntüleri işleyip http://localhost:8080 üzerindeki API'ye veri göndermeye başlayacaktır.
