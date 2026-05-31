@@ -60,3 +60,6 @@ Port Conflicts: Use netstat -ano to find and terminate processes blocking ports 
 Database Connection: Ensure connection strings point to db inside the Docker network.
 
 Build Errors: If Docker fails to find project files, verify that Dockerfile paths match the current folder hierarchy.
+
+
+Click [here](https://github.com/sytronee/detectFace-savetodb/edit/main/README_tr.md) for the Turkish document.
