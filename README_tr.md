@@ -25,7 +25,7 @@ Sistem, Docker ile birbirinden izole edilmiş üç ana bileşenden oluşur:
 
 ### 1. Projeyi Klonlayın
 ```bash
-git clone <[proje-linkiniz](https://github.com/sytronee/detectFace-savetodb)>
+git clone https://github.com/sytronee/detectFace-savetodb
 cd detectFace-savetodb
 2. Python Ortamını Hazırlayın
 Görüntü işleme scriptinin çalışması için gerekli kütüphaneleri kurun:
