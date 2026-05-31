@@ -23,7 +23,7 @@ An end-to-end computer vision system that captures camera feeds, detects faces, 
 
 ### 1. Clone the Repository
 ```bash
-git clone <[your-repo-link](https://github.com/sytronee/detectFace-savetodb)>
+git clone https://github.com/sytronee/detectFace-savetodb
 cd detectFace-savetodb
 2. Prepare Python Environment
 Bash
