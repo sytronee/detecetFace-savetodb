@@ -26,9 +26,6 @@ An end-to-end computer vision system that captures camera feeds, detects faces, 
 git clone https://github.com/sytronee/detectFace-savetodb
 cd detectFace-savetodb
 2. Prepare Python Environment
-Bash
-
-
 cd detectFace/PythonScript
 
 # Create and activate virtual environment
@@ -41,8 +38,6 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 3. Launch Docker Services
-Bash
-
 
 cd ../..
 docker-compose up --build
@@ -60,5 +55,3 @@ Port Conflicts: Use netstat -ano to find and terminate processes blocking ports 
 Database Connection: Ensure connection strings point to db inside the Docker network.
 
 Build Errors: If Docker fails to find project files, verify that Dockerfile paths match the current folder hierarchy.
-
-
