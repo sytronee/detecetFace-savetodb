@@ -60,7 +60,7 @@ python main.py # veya kullandığınız dosya adı
 Script, görüntüleri işleyip http://localhost:8080 üzerindeki API'ye veri göndermeye başlayacaktır.
 
 📊 Veritabanı Yönetimi
-Verileri görüntülemek veya yönetmek için:
+Verileri görüntülemek veya yönetmek için (DBeaver kurulumu gereklidir.) :
 
 Host: localhost
 
