@@ -1,3 +1,4 @@
+Click [here](https://github.com/sytronee/detectFace-savetodb/edit/main/README_tr.md) for the Turkish document.
 # Face Detection and Data Tracking System
 
 An end-to-end computer vision system that captures camera feeds, detects faces, and logs data (Camera ID, timestamp, confidence score, bounding box) into a **PostgreSQL** database.
@@ -5,9 +6,9 @@ An end-to-end computer vision system that captures camera feeds, detects faces, 
 ---
 
 ## 🏗 System Architecture
-1. **Frontend (Python):** Image processing module located in `detectFace-savetodb/detectFace/PythonScript`.
-2. **Backend (API):** C# .NET Core service for data management.
-3. **Database:** PostgreSQL 15.
+1.  **Frontend (Python):** Image processing module located in `detectFace-savetodb/detectFace/PythonScript`.
+2.  **Backend (API):** C# .NET Core service for data management.
+3.  **Database:** PostgreSQL 15.
 
 ---
 
@@ -21,7 +22,7 @@ An end-to-end computer vision system that captures camera feeds, detects faces, 
 ## 📦 Installation Guide
 
 ### 1. Clone the Repository
-
+```bash
 git clone <your-repo-link>
 cd detectFace-savetodb
 2. Prepare Python Environment
@@ -40,7 +41,7 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 3. Launch Docker Services
-
+Bash
 
 
 cd ../..
@@ -60,4 +61,4 @@ Database Connection: Ensure connection strings point to db inside the Docker net
 
 Build Errors: If Docker fails to find project files, verify that Dockerfile paths match the current folder hierarchy.
 
-Click [here](https://github.com/sytronee/detectFace-savetodb/edit/main/README_tr.md) for the Turkish document.
+
