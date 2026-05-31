@@ -1,46 +1,62 @@
+```markdown
 # Face Detection and Data Tracking System
 
-This project is an end-to-end system designed to process camera feeds for face detection and automatically store the detected data (Camera ID, timestamp, confidence score, and bounding box information) into a **PostgreSQL** database.
+An end-to-end computer vision system that captures camera feeds, detects faces, and logs data (Camera ID, timestamp, confidence score, bounding box) into a **PostgreSQL** database.
 
-## 🚀 System Architecture
-The system is built using containerized services (Docker) for seamless portability:
-* **Frontend/UI:** Python script for image processing and object detection.
-* **Backend API:** C# .NET Core-based API to manage data intake.
-* **Database:** PostgreSQL 15.
+---
 
+## 🏗 System Architecture
+1.  **Frontend (Python):** Image processing module located in `detectFace-savetodb/detectFace/PythonScript`.
+2.  **Backend (API):** C# .NET Core service for data management.
+3.  **Database:** PostgreSQL 15.
 
+---
 
 ## 🛠 Tech Stack
-* **Language:** C# (.NET Core), Python (OpenCV)
+* **Languages:** C# (.NET 8.0), Python 3.x
 * **Database:** PostgreSQL 15
 * **Orchestration:** Docker & Docker Compose
-* **ORM/Connectivity:** Npgsql
 
-## 📦 Installation & Usage
+---
 
-### Prerequisites
-* [Docker Desktop](https://www.docker.com/products/docker-desktop/) must be installed and running on your system.
+## 📦 Installation Guide
 
-### Steps
-1. **Clone the Repository:**
-   ```bash
-   git clone <https://github.com/sytronee/detectFace-savetodb>
-   cd <project-folder>
-Start the Services:
-Run the following command in the project's root directory:
-
+### 1. Clone the Repository
+```bash
+git clone <your-repo-link>
+cd detectFace-savetodb
+2. Prepare Python Environment
 Bash
 
 
+cd detectFace/PythonScript
+
+# Create and activate virtual environment
+python -m venv venv
+# Windows:
+venv\Scripts\activate
+# Linux/Mac:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+3. Launch Docker Services
+Bash
+
+
+cd ../..
 docker-compose up --build
-Connect to the Database:
-Use DBeaver or pgAdmin to view the data:
+🚀 Execution
+Run the Python script from the detectFace/PythonScript directory. It will stream detection events to the API at http://localhost:8080.
 
-Host: localhost | Port: 5432 | DB: CameraDb | User: postgres | Pass: 123
+📊 Database Access
+Host: localhost | Port: 5432
 
-📊 Data Structure
-The system stores data in the scanneddata table, capturing camera IDs, timestamps, confidence scores, and bounding box coordinates.
+Database: CameraDb | Credentials: postgres / 123
 
+⚠️ Troubleshooting
+Port Conflicts: Use netstat -ano to find and terminate processes blocking ports 8080 or 5432.
 
+Database Connection: Ensure connection strings point to db inside the Docker network.
 
-Click [here](https://github.com/sytronee/detectFace-savetodb/blob/main/README_tr.md) to access the Turkish documentation for the project. 
+Build Errors: If Docker fails to find project files, verify that Dockerfile paths match the current folder hierarchy.
