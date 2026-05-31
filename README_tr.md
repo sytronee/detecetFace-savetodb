@@ -1,4 +1,4 @@
-Click [here](https://github.com/sytronee/detectFace-savetodb/edit/main/README.md) for the English document.
+Click [here](https://github.com/sytronee/detectFace-savetodb/README.md) for the English document.
 # Yüz Tanıma ve Veri Takip Sistemi
 
 Bu proje, bir kamera kaynağından alınan görüntüleri gerçek zamanlı işleyerek yüz tespiti yapan ve elde edilen verileri (kamera ID, zaman damgası, güven skoru, bounding box) bir **PostgreSQL** veritabanına kaydeden uçtan uca bir sistemdir.
