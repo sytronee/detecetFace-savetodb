@@ -1,0 +1,8 @@
+certifi
+charset-normalizer
+idna
+numpy
+opencv-python-headless
+pillow
+requests
+urllib3

@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "DetectionEventAPI/1.0.0": {
         "dependencies": {
-          "CommonModels": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.6.2"
+          "Swashbuckle.AspNetCore": "6.6.2",
+          "commonModels": "1.0.0"
         },
         "runtime": {
           "DetectionEventAPI.dll": {}
@@ -60,7 +60,7 @@
           }
         }
       },
-      "CommonModels/1.0.0": {
+      "commonModels/1.0.0": {
         "runtime": {
           "CommonModels.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -111,7 +111,7 @@
       "path": "swashbuckle.aspnetcore.swaggerui/6.6.2",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
     },
-    "CommonModels/1.0.0": {
+    "commonModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

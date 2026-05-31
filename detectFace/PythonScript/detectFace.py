@@ -10,7 +10,7 @@ import pathlib
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- AYARLAR ---
-API_URL = "https://localhost:7110/api/detection"
+API_URL = "http://localhost:8080/api/detection"
 CAMERA_INDEX = 0
 
 class FaceApp:

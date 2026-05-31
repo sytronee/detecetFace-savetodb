@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = CommonModels
+build_property.ProjectDir = C:\Users\Furkan\Desktop\detecetFace-savetodb\detectFace\Backend\detectFace_ui\CommonModels\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
