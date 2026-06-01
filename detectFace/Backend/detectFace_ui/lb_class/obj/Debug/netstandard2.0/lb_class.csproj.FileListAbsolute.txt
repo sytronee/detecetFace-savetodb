@@ -1,0 +1,11 @@
+C:\Users\Furkan\Documents\Projeler\GitHub\detectFace-savetodb\detectFace\Backend\detectFace_ui\lb_class\bin\Debug\netstandard2.0\lb_class.deps.json
+C:\Users\Furkan\Documents\Projeler\GitHub\detectFace-savetodb\detectFace\Backend\detectFace_ui\lb_class\bin\Debug\netstandard2.0\lb_class.dll
+C:\Users\Furkan\Documents\Projeler\GitHub\detectFace-savetodb\detectFace\Backend\detectFace_ui\lb_class\bin\Debug\netstandard2.0\lb_class.pdb
+C:\Users\Furkan\Documents\Projeler\GitHub\detectFace-savetodb\detectFace\Backend\detectFace_ui\lb_class\obj\Debug\netstandard2.0\lb_class.csproj.AssemblyReference.cache
+C:\Users\Furkan\Documents\Projeler\GitHub\detectFace-savetodb\detectFace\Backend\detectFace_ui\lb_class\obj\Debug\netstandard2.0\lb_class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furkan\Documents\Projeler\GitHub\detectFace-savetodb\detectFace\Backend\detectFace_ui\lb_class\obj\Debug\netstandard2.0\lb_class.AssemblyInfoInputs.cache
+C:\Users\Furkan\Documents\Projeler\GitHub\detectFace-savetodb\detectFace\Backend\detectFace_ui\lb_class\obj\Debug\netstandard2.0\lb_class.AssemblyInfo.cs
+C:\Users\Furkan\Documents\Projeler\GitHub\detectFace-savetodb\detectFace\Backend\detectFace_ui\lb_class\obj\Debug\netstandard2.0\lb_class.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Documents\Projeler\GitHub\detectFace-savetodb\detectFace\Backend\detectFace_ui\lb_class\obj\Debug\netstandard2.0\lb_class.sourcelink.json
+C:\Users\Furkan\Documents\Projeler\GitHub\detectFace-savetodb\detectFace\Backend\detectFace_ui\lb_class\obj\Debug\netstandard2.0\lb_class.dll
+C:\Users\Furkan\Documents\Projeler\GitHub\detectFace-savetodb\detectFace\Backend\detectFace_ui\lb_class\obj\Debug\netstandard2.0\lb_class.pdb

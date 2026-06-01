@@ -7,15 +7,15 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "CommonModels/1.0.0": {
+      "lb_class/1.0.0": {
         "runtime": {
-          "CommonModels.dll": {}
+          "lb_class.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "CommonModels/1.0.0": {
+    "lb_class/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

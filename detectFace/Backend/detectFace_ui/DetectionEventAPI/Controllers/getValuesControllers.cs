@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using CommonModels;
-using static CommonModels.Class1;
+using lb_class;
+using static lb_class.Class1;
 
 
 namespace DetectionEventAPI.Controllers

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CommonModels
+namespace lb_class
 {
     public class Class1
     {

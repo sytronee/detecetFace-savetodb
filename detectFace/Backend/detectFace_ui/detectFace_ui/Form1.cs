@@ -13,8 +13,8 @@ using System.Net.Http;
 using System.Text.Json;
 using Newtonsoft.Json;
 using Npgsql;
-using CommonModels;
-using static CommonModels.Class1;
+using lb_class;
+using static lb_class.Class1;
 
 namespace detectFace_ui
 {

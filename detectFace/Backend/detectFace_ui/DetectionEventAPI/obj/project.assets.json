@@ -89,14 +89,14 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "CommonModels/1.0.0": {
+      "lb_class/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/CommonModels.dll": {}
+          "bin/placeholder/lb_class.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CommonModels.dll": {}
+          "bin/placeholder/lb_class.dll": {}
         }
       }
     }
@@ -450,16 +450,16 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "CommonModels/1.0.0": {
+    "lb_class/1.0.0": {
       "type": "project",
-      "path": "../CommonModels/CommonModels.csproj",
-      "msbuildProject": "../CommonModels/CommonModels.csproj"
+      "path": "../lb_class/lb_class.csproj",
+      "msbuildProject": "../lb_class/lb_class.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CommonModels >= 1.0.0",
-      "Swashbuckle.AspNetCore >= 6.6.2"
+      "Swashbuckle.AspNetCore >= 6.6.2",
+      "lb_class >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -495,8 +495,8 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detectFace-savetodb\\detectFace\\Backend\\detectFace_ui\\CommonModels\\CommonModels.csproj": {
-              "projectPath": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detectFace-savetodb\\detectFace\\Backend\\detectFace_ui\\CommonModels\\CommonModels.csproj"
+            "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detectFace-savetodb\\detectFace\\Backend\\detectFace_ui\\lb_class\\lb_class.csproj": {
+              "projectPath": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detectFace-savetodb\\detectFace\\Backend\\detectFace_ui\\lb_class\\lb_class.csproj"
             }
           }
         }
