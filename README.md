@@ -57,6 +57,9 @@ DB Name: CameraDb
 
 User/Pass: postgres / 123
 
+⚠️ Important Note 
+Please ensure that the entire path to the project (all folder names) contains only English characters (a-z, A-Z, 0-9). Using special or non-English characters (e.g., ş, ı, ğ, ü, ç, ö) in folder names will cause errors in Docker, Python scripts, and file operations
+
 ⚠️ Troubleshooting
 Port Conflicts: Use netstat -ano to find and terminate processes blocking ports 8080 or 5432.
 
