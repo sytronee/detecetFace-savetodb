@@ -59,7 +59,7 @@ Scripti çalıştırın:
 python main.py # veya kullandığınız dosya adı
 Script, görüntüleri işleyip http://localhost:8080 üzerindeki API'ye veri göndermeye başlayacaktır.
 
-* **Projeyi başlatmak isterseniz** detectFace-savetodb\detectFace yolundaki DetectFace kısayoluna tıklayabilirsiniz.
+**Projeyi başlatmak isterseniz** detectFace-savetodb\detectFace yolundaki DetectFace kısayoluna tıklayabilirsiniz.
 Kısayol, detectFace-savetodb\detectFace\Backend\detectFace_ui\detectFace_ui\bin\Debug yolundaki detectFace_ui.exe dosyasını çalıştırır.
 
 📊 Veritabanı Yönetimi
