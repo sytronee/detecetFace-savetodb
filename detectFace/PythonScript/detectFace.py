@@ -18,7 +18,7 @@ class FaceApp:
         self.window = window
         self.window.title("Auto Detection")
         
-        # Kamera ve Cascade Hazırlığı
+        # Hazırlık
         self.camera = cv2.VideoCapture(CAMERA_INDEX)
         self.camera.set(cv2.CAP_PROP_FPS, 60)
         
@@ -70,7 +70,7 @@ class FaceApp:
         # 1. Görseli kaydet
         if self.latest_frame is not None:
             cv2.imwrite("Snapshot.jpg", self.latest_frame)
-            # Burada 'Başarılı' yerine doğrudan skoru yazdırıyoruz
+            
             print(f"Kayıt tamamlandı! Güven Skoru: %{percent_score:.1f}")
         
         # 2. API'ye gönder
