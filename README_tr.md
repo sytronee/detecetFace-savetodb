@@ -71,7 +71,7 @@ DB Name: CameraDb
 User/Pass: postgres / 123
 
 ⚠️ Önemli Not
-Türkçe: Proje klasör yolunun tamamının sadece İngilizce karakterler (a-z, A-Z, 0-9) içerdiğinden emin olun. Klasör isimlerinde Türkçe karakter (ş, ı, ğ, ü, ç, ö) kullanılması; Docker, Python scriptleri ve dosya okuma işlemleri sırasında hatalara yol açar.
+Proje klasör yolunun tamamının sadece İngilizce karakterler (a-z, A-Z, 0-9) içerdiğinden emin olun. Klasör isimlerinde Türkçe karakter (ş, ı, ğ, ü, ç, ö) kullanılması; Docker, Python scriptleri ve dosya okuma işlemleri sırasında hatalara yol açar.
 
 ⚠️ Karşılaşılan Sorunlar ve Çözümleri
 Port Çakışması: Eğer 8080 veya 5432 portu dolu uyarısı alırsanız, netstat -ano | findstr :8080 komutuyla süreci bulun ve taskkill /PID <PID_NUMARASI> /F ile sonlandırın.
