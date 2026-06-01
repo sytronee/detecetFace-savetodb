@@ -47,6 +47,9 @@ docker-compose up --build
 🚀 Execution
 Run the Python script from the detectFace/PythonScript directory. It will stream detection events to the API at http://localhost:8080.
 
+**To start the project**, you can click the DetectFace shortcut at detectFace-savetodb\detectFace.
+The shortcut runs the detectFace_ui.exe file located at detectFace-savetodb\detectFace\Backend\detectFace_ui\detectFace_ui\bin\Debug.
+
 📊 Database Acsess To view or manage data (DBeaver installation required):
 
 Host: localhost
