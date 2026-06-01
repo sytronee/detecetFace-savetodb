@@ -136,9 +136,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\commonModels\commonModels.csproj">
+    <ProjectReference Include="..\CommonModels\CommonModels.csproj">
       <Project>{7219eefe-e3e2-438d-b574-8c62cad7d863}</Project>
-      <Name>commonModels</Name>
+      <Name>CommonModels</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

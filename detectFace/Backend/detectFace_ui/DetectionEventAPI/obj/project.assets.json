@@ -89,14 +89,14 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "commonModels/1.0.0": {
+      "CommonModels/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/commonModels.dll": {}
+          "bin/placeholder/CommonModels.dll": {}
         },
         "runtime": {
-          "bin/placeholder/commonModels.dll": {}
+          "bin/placeholder/CommonModels.dll": {}
         }
       }
     }
@@ -450,7 +450,7 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "commonModels/1.0.0": {
+    "CommonModels/1.0.0": {
       "type": "project",
       "path": "../CommonModels/CommonModels.csproj",
       "msbuildProject": "../CommonModels/CommonModels.csproj"
@@ -458,8 +458,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Swashbuckle.AspNetCore >= 6.6.2",
-      "commonModels >= 1.0.0"
+      "CommonModels >= 1.0.0",
+      "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
   "packageFolders": {
@@ -469,11 +469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Furkan\\Desktop\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\DetectionEventAPI\\DetectionEventAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detectFace-savetodb\\detectFace\\Backend\\detectFace_ui\\DetectionEventAPI\\DetectionEventAPI.csproj",
       "projectName": "DetectionEventAPI",
-      "projectPath": "C:\\Users\\Furkan\\Desktop\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\DetectionEventAPI\\DetectionEventAPI.csproj",
+      "projectPath": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detectFace-savetodb\\detectFace\\Backend\\detectFace_ui\\DetectionEventAPI\\DetectionEventAPI.csproj",
       "packagesPath": "C:\\Users\\Furkan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Furkan\\Desktop\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\DetectionEventAPI\\obj\\",
+      "outputPath": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detectFace-savetodb\\detectFace\\Backend\\detectFace_ui\\DetectionEventAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -495,8 +495,8 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Furkan\\Desktop\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\commonModels\\commonModels.csproj": {
-              "projectPath": "C:\\Users\\Furkan\\Desktop\\detecetFace-savetodb\\detectFace\\Backend\\detectFace_ui\\commonModels\\commonModels.csproj"
+            "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detectFace-savetodb\\detectFace\\Backend\\detectFace_ui\\CommonModels\\CommonModels.csproj": {
+              "projectPath": "C:\\Users\\Furkan\\Documents\\Projeler\\GitHub\\detectFace-savetodb\\detectFace\\Backend\\detectFace_ui\\CommonModels\\CommonModels.csproj"
             }
           }
         }

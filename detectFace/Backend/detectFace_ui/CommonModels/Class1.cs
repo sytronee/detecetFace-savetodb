@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace commonModels
+namespace CommonModels
 {
     public class Class1
     {
