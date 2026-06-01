@@ -52,7 +52,7 @@
             // 
             // pnl_ctrlbox
             // 
-            this.pnl_ctrlbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(153)))), ((int)(((byte)(107)))));
+            this.pnl_ctrlbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(121)))), ((int)(((byte)(107)))));
             this.pnl_ctrlbox.Controls.Add(this.lbl_tag);
             this.pnl_ctrlbox.Controls.Add(this.pnl_ext);
             this.pnl_ctrlbox.Dock = System.Windows.Forms.DockStyle.Top;
@@ -66,7 +66,7 @@
             // 
             this.lbl_tag.AutoSize = true;
             this.lbl_tag.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_tag.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(79)))), ((int)(((byte)(74)))));
+            this.lbl_tag.ForeColor = System.Drawing.Color.White;
             this.lbl_tag.Location = new System.Drawing.Point(21, 6);
             this.lbl_tag.Name = "lbl_tag";
             this.lbl_tag.Size = new System.Drawing.Size(148, 29);
@@ -91,7 +91,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_ext.AutoSize = true;
             this.lbl_ext.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_ext.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(79)))), ((int)(((byte)(74)))));
+            this.lbl_ext.ForeColor = System.Drawing.Color.White;
             this.lbl_ext.Location = new System.Drawing.Point(9, 9);
             this.lbl_ext.Name = "lbl_ext";
             this.lbl_ext.Size = new System.Drawing.Size(22, 22);

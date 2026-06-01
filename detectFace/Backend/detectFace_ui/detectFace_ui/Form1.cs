@@ -126,8 +126,8 @@ namespace detectFace_ui
             SendMessage(Handle, 0x112, 0xf012, 0);
         }
 
-        private void pnl_ext_MouseEnter(object sender, EventArgs e) => pnl_ext.BackColor = Color.FromArgb(211, 163, 117);
-        private void pnl_ext_MouseLeave(object sender, EventArgs e) => pnl_ext.BackColor = Color.FromArgb(201, 153, 107);
+        private void pnl_ext_MouseEnter(object sender, EventArgs e) => pnl_ext.BackColor = Color.FromArgb(10, 131, 117);
+        private void pnl_ext_MouseLeave(object sender, EventArgs e) => pnl_ext.BackColor = Color.FromArgb(0, 121, 107);
         private void pnl_ext_Click(object sender, EventArgs e) => Application.Exit();
 
         private void btn_scanFace_Click(object sender, EventArgs e)
